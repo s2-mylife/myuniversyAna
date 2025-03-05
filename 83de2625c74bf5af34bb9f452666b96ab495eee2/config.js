@@ -1,19 +1,19 @@
 
 
 let config = {
-    "man": "Gustavo",
-    "woman": "Luana",
-    "first_message": "Desde o instante em que nossos caminhos se cruzaram, tudo se tornou mais colorido. Cada momento ao seu lado é uma eternidade de felicidade. Em cada sorriso seu, eu encontro paz, e em cada olhar, vejo a promessa de um amor que cresce a cada dia. Eu te amo mais do que as palavras podem dizer, e sei que ao seu lado, o futuro é ainda mais brilhante.",
-    "second_message": "Eu sou imensamente grato(a) por ter você em minha vida. Que cada dia ao seu lado seja uma celebração do nosso amor eterno. Te amo! <span class='heart'>❤️</span>",
+    "man": "Thiago",
+    "woman": "Ana",
+    "first_message": "Formulando...",
+    "second_message": "Formulando ... <span class='heart'>❤️</span>",
   };
  
 let images = [
-    "photos/photo1.jpg",
-    "photos/photo2.jpg",
-    "photos/photo3.jpg",
-    "photos/photo4.jpg",
-    "photos/photo5.jpg",
-    "photos/photo6.jpg",
+    "https://placehold.co/600x400",
+    "https://placehold.co/600x400",
+    "https://placehold.co/600x400",
+    "https://placehold.co/600x400",
+    "https://placehold.co/600x400",
+    "https://placehold.co/600x400",
   ];
   
 
