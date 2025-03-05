@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nosso Amor</title>
+    <link rel="icon" type="image/x-icon" href="photos/icon.png" />
+    <link href="css/black-back.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <main>
+      <div id="container">
+        <div id="container-bar">
+          <div class="horizontal-bar" id="bar"></div>
+        </div>
+
+        <div class="gift" onclick="showEffect();"></div>
+      </div>
+
+      <!-- Slide de Imagens e Vídeos -->
+      <div class="slide-container">
+        <div class="left-image" onclick="rotateSlide('left')">
+          <img src="" alt="Imagem Esquerda" id="left-img" />
+        </div>
+        <div class="center-image">
+          <img src="" alt="Imagem Central" id="center-img" />
+        </div>
+        <div class="right-image" onclick="rotateSlide('right')">
+          <img src="" alt="Imagem Direita" id="right-img" />
+        </div>
+      </div>
+      <h1 couple="name"></h1>
+      <!-- Texto romântico -->
+      <div class="content">
+        <p first="message" class="romantic-text"></p>
+      </div>
+
+      <!-- Cronômetro -->
+      <div class="timer">
+        <h2>Tempo Juntos</h2>
+        <p id="timer"></p>
+      </div>
+
+      <!-- Vídeo com configurações adicionais -->
+      <video id="romanticVideo" width="100%" height="40%" controls>
+        <source
+          src="..\83de2625c74bf5af34bb9f452666b96ab495eee2\photos\video.mp4"
+          type="video/mp4"
+        />
+        Seu navegador não suporta a tag <code>video</code>.
+      </video>
+
+      <!-- Mensagem de amor -->
+      <div class="message">
+        <p second="message"></p>
+      </div>
+
+      <script src="config.js"></script>
+      <script src="js/functions.js"></script>
+    </main>
+    <div id="portal">
+      <a href="../b395f24bce01e66d35ab677a7feb8e99aeadc6f3/index.html">
+        <img src="portal.png" />
+      </a>
+    </div>
+    
+    <footer>
+      <p>
+        Entre em contato: <a href="https://wa.me/5511915811912">WhatsApp</a> |
+        <a href="https://www.instagram.com/afeto_digital/">Instagram</a>
+      </p>
+      <p class="footer-links">
+        &copy; 2024 Afeto Digital. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

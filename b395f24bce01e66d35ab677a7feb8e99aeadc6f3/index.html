@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo</title>    
+    <link rel="icon" type="image/x-icon" href="photos/icon.png" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="background-message" id="remove">
+        <div class="message">
+          Dedique o seu coração
+        </div>
+      </div>
+
+    <div class="stars">
+        <script>
+            const starsContainer = document.querySelector('.stars');
+            for (let i = 0; i < 100; i++) {
+                const star = document.createElement('div');
+                star.style.cssText = `
+                    position: absolute;
+                    top: ${Math.random() * 100}%;
+                    left: ${Math.random() * 100}%;
+                    width: 2px;
+                    height: 2px;
+                    background: white;
+                    border-radius: 50%;
+                `;
+                starsContainer.appendChild(star);
+            }
+        </script>
+    </div>
+
+    <div class="screen active" id="screen1">
+        <div id="clock">
+            <img src="clock.webp" />
+        </div>
+        <h1>Bem-vindo ao nosso universo!!</h1>
+        <h2>Estamos juntos há:</h2>
+        <div id="timer"></div>
+        <button class="btn-pulse" onclick="switchToScreen('screen2')">Nossas Memórias</button>
+    </div>
+
+    <div class="screen" id="screen2">
+        <svg id="connections"></svg>
+    </div>
+
+    <div class="message-box" id="messageBox">
+        <h3 id="messageTitle"></h3>
+        <p id="messageText"></p>
+        <div class="image-slider">
+            <button class="slide-btn prev" onclick="changeSlide(-1)">❮</button>
+            <img id="messageImage" src="" alt="">
+            <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+        </div>
+        <button class="close-btn" onclick="closeMessage()">Fechar</button>
+    </div>
+
+    
+    <footer>
+        <p>
+          Entre em contato: <a href="https://wa.me/5511915811912">WhatsApp</a> |
+          <a href="https://www.instagram.com/afeto_digital/">Instagram</a>
+        </p>
+        <p class="footer-links">
+          &copy; 2024 Afeto Digital. Todos os direitos reservados.
+        </p>
+      </footer>
+    <script src="config.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>
