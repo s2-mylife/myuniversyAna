@@ -1,5 +1,5 @@
 // Data inicial do relacionamento (alterar para a data correta)
-const startDate = new Date("2024-03-01T14:16:00");
+const startDate = new Date("2025-03-01T14:16:00");
 
 function updateTimer() {
   const currentTime = new Date();
