@@ -20,7 +20,7 @@ memories.forEach((memory) => {
 });
 
 function updateTimer() {
-  const startDate = new Date("2024-06-01T00:00:00");
+  const startDate = new Date("2025-03-01T14:16:00");
   const now = new Date();
   const diff = now - startDate;
 
